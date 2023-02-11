@@ -25,9 +25,7 @@ body {
 }
 
 .login__headingline {
-    height: 36px;
-    width: 185px;
-    font-size: 30px;
+    font-size: 2.25em;
     text-decoration: underline;
     margin-bottom: 30px;
     margin-top: 0px;
@@ -45,12 +43,17 @@ body {
     background: rgba(217, 217, 217, 0.1);
     border-radius: 10px;
     border: none;
-    font-size: 12px;
+    font-size: 1em;
     font-weight: 400;
     padding: 15px;
     text-indent: 7px;
     color: white;
     outline: none;
+    opacity: 0.8;
+}
+
+.login__input .input__form:hover {
+    opacity: 1;
 }
 
 .login__input .password {
@@ -64,7 +67,7 @@ body {
     font-weight: 700;
     background-color: #663AE5;
     border: none;
-    font-size: 16px;
+    font-size: 1em;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -75,7 +78,7 @@ body {
 }
 
 .login__forgot-password {
-    font-size: 8px;
+    font-size: 0.875em;
     line-height: 10px;
     text-decoration: none;
     color: white;
@@ -103,6 +106,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
+    font-size: 1em;
 }
 
 
