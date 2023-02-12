@@ -10,16 +10,17 @@
 </head>
 <body>
     <div class="login">
-        <h2  class="login__headingline">ĐĂNG NHẬP</h2>
-        <div class="login__input">
-            <input class="email input__form mgb" type="text" placeholder="Email hoặc số điện thoại">
-            <input class="password input__form" type="text" placeholder="Mật khẩu">
-         </div>
-        <button class="login__btn mgb">Đăng Nhập</button>
-        <br>
-        <a class="login__forgot-password mgb" href="">Quên mật khẩu?</a>
-        <div class="login__solid"></div>
-        <button class="login__create-account">Tạo tài khoản</button>
+        <div class="login__container">
+            <h1>ĐĂNG NHẬP</h1>
+            <form>
+                <input class="input-login-username mgb" type="email" placeholder="Email hoặc số điện thoại" required>
+                <input class="input-login-password" type="password" placeholder="Mật khẩu" required>
+                <button class="login__btn mgb" type="submit">Đăng Nhập</button>
+            </form>
+            <a class="login__forgotbButton mgb" href="">Quên mật khẩu?</a>
+            <div class="login__solid"></div>
+            <a class="login__registerButton" type="">Tạo tài khoản</a>
+        </div>
     </div>
 </body>
 </html>
