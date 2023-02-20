@@ -1,0 +1,15 @@
+:root {
+    --background-color: #2D2D2D;
+    --white-color: #fff;
+    --button-color: #663AE5;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "tahoma";
+}
