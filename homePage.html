@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/homePage.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+</head>
+
+<body>
+    <div class="nav">
+        <a href="" class="home-logo">
+            <img src="./assets/img/Logo/logo.png">
+        </a>
+        <div class="directional" style="background-color: grey;">
+            <a class="directional_text">Trang chủ</a>
+        </div>
+        <div class="directional">
+            <a class="directional_text">Bảng tin</a>
+        </div>
+        <div class="directional">
+            <a class="directional_text">Thư viện</a>
+        </div>
+        <div class="search">
+            <div class="search-field">
+                <input type="text" class="search-input" placeholder="Search">
+            </div>
+            <div class="search-icon">
+                <ion-icon name="search"></ion-icon>
+            </div>
+        </div>
+        <a href="" class="chat">
+            <div class="chat-icon">
+                <ion-icon name="chatbox"></ion-icon>
+            </div>
+        </a>
+        <a href="" class="upload">
+            <div class="upload-icon">
+                <ion-icon name="cloud-upload"></ion-icon>
+            </div>
+        </a>
+        <div class="notifications">
+            <div class="notifications-icon">
+                <ion-icon name="notifications"></ion-icon>
+            </div>
+        </div>
+        <div class="profile">
+            <img src="./assets/img/avatar/profile-avatar.gif" alt="" class="avatar-img">
+            <p class="profile-name">Vũ Minh Khoa</p>
+        </div>
+    </div>
+    <div class="content_container">
+        <div class="content">
+            <div class="slide_wrapper">
+                <div id="MU" class="splide">
+                    <h3 class="header">Âm Nhạc Châu Á</h3>
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            <div class="splide__slide">
+                                <div class="img_box">
+                                    <img src="./assets/img/homePageSlide/asian/asian_01.jpg" alt="">
+                                    <p>K-Pop</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box">
+                                    <img src="./assets/img/homePageSlide/asian/asian_02.jpg" alt="">
+                                    <p>J-Pop</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box">
+                                    <img src="./assets/img/homePageSlide/asian/asian_03.jpg" alt="">
+                                    <p>Rap Việt</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box">
+                                    <img src="./assets/img/homePageSlide/asian/asian_04.jpg" alt="">
+                                    <p>Nhạc Trẻ Trung Quốc</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box">
+                                    <img src="./assets/img/homePageSlide/asian/asian_05.jpg" alt="">
+                                    <p>V-Pop</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper_mixSelection">
+                <div class="mixSelection">
+                    <h3 class="selection_header">Bảng Xếp hạng trong ngày</h3>
+                    <div class="selectionPlayList">
+                        <div class="selection_img"><img src="./assets/img/sgImg/01.jpg"></img>
+                        </div>
+                        <ul class="selection_music">
+                            <li class="selection_song">
+                                Thu Huế - La Vie En Rose Cover
+                                <div class="selection_view">
+                                    <p>6.0M <i class="selection_icon"><ion-icon name="play"></ion-icon></i></p>
+                                </div>
+                            </li>
+                            <li class="selection_song">
+                                Phúc Du- yêu anh đi mẹ anh bán bánh mì
+                                <div class="selection_view">
+                                    <p>3.2M <i class="selection_icon"><ion-icon name="play"></ion-icon></i></p>
+                                </div>
+                            </li>
+                            <li class="selection_song">
+                                Văn Khởi - Any song(아무노래)
+                                <div class="selection_view">
+                                    <p>2.2M <i class="selection_icon"><ion-icon name="play"></ion-icon></i></p>
+                                </div>
+                            </li>
+                            <li class="selection_song">
+                                D Smoke - Bet On Me
+                                <div class="selection_view">
+                                    <p>1.1M <i class="selection_icon"><ion-icon name="play"></ion-icon></i></p>
+                                </div>
+                            </li>
+                            <li class="selection_song">
+                                YOASOBI - Monster
+                                <div class="selection_view">
+                                    <p>100K <i class="selection_icon"><ion-icon name="play"></ion-icon></i></p>
+                                </div>
+                            </li>
+                            <li class="selection_song">
+                                minh hoang - golden hour
+                                <div class="selection_view">
+                                    <p>501K <i class="selection_icon"><ion-icon name="play"></ion-icon></i></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="slide_wrapper">
+                <div id="Ars" class="splide">
+                    <h3 class="header">Cho Ngày Sáng Tạo</h3>
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            <div class="splide__slide">
+                                <div class="img_box">
+                                    <img src="./assets/img/homePageSlide/goodDay/gd_1.gif" alt="">
+                                    <p>For Work</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box">
+                                    <img src="./assets/img/homePageSlide/goodDay/gd_5.jpg" alt="">
+                                    <p>Heallll</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box">
+                                    <img src="./assets/img/homePageSlide/goodDay/gd_3.gif" alt="">
+                                    <p>Ngày Tốt Lành</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box">
+                                    <img src="./assets/img/homePageSlide/goodDay/gd_4.jpg" alt="">
+                                    <p>Chill</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box">
+                                    <img src="./assets/img/homePageSlide/goodDay/gd_2.gif" alt="">
+                                    <p>Rap Vibes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper_mixSelection">
+                <div class="mixSelection">
+                    <h3 class="selection_header">Dành cho bạn</h3>
+                    <div class="selectionPlayList">
+                        <div class="selection_img"><img src="./assets/img/sgImg/02.jpg"></img>
+                        </div>
+                        <ul class="selection_music">
+                            <li class="selection_song">
+                                Thu Huế - La Vie En Rose Cover
+                                <div class="selection_view">
+                                    <p>6.0M <i class="selection_icon"><ion-icon name="play"></ion-icon></i></p>
+                                </div>
+                            </li>
+                            <li class="selection_song">
+                                thắng - Remembrance
+                                <div class="selection_view">
+                                    <p>3K <i class="selection_icon"><ion-icon name="play"></ion-icon></i></p>
+                                </div>
+                            </li>
+                            <li class="selection_song">
+                                khởi - Time Machine-MJ
+                                <div class="selection_view">
+                                    <p>2.2K <i class="selection_icon"><ion-icon name="play"></ion-icon></i></p>
+                                </div>
+                            </li>
+                            <li class="selection_song">
+                                hòa - Bet On Me - Walk off the Earth Ft. D Smoke
+                                <div class="selection_view">
+                                    <p>5.1K <i class="selection_icon"><ion-icon name="play"></ion-icon></i></p>
+                                </div>
+                            </li>
+                            <li class="selection_song">
+                                YOASOBI - Monster
+                                <div class="selection_view">
+                                    <p>1.1K <i class="selection_icon"><ion-icon name="play"></ion-icon></i></p>
+                                </div>
+                            </li>
+                            <li class="selection_song">
+                                minh hoang - golden hour-JVKE
+                                <div class="selection_view">
+                                    <p>3.3M <i class="selection_icon"><ion-icon name="play"></ion-icon></i></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="sidebar">
+            <div class="sidebar_right">
+                <div class="sidebar_header">
+                    <ion-icon name="calendar-outline" class="sidebar_icon"></ion-icon>
+                    Lịch sử nghe
+                    <a>Xem tất cả</a>
+                    <div class="solid"></div>
+                </div>
+                <div class="box_list">
+                    <div class="box">
+                        <div class="box-img"><img src="./assets/img/sidebar_img/img_1.jpg" alt=""></div>
+                        <div class="box_header">On Top - sunset boy</div>
+                        <div class="box_icon">
+                            <ion-icon name="play-outline"></ion-icon>
+                            10K
+                            <ion-icon name="heart-outline"></ion-icon>
+                            20
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img"><img src="./assets/img/sidebar_img/img_2.jpg" alt=""></div>
+                    <div class="box_header">Tớ yêu cậu - Sáng Sẹo</div>
+                    <div class="box_icon">
+                        <ion-icon name="play-outline"></ion-icon>
+                        10K
+                        <ion-icon name="heart-outline"></ion-icon>
+                        20
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img"><img src="./assets/img/sidebar_img/img_3.jpg" alt=""></div>
+                    <div class="box_header">Em của quá khứ Cover - Vũ Minh Khoa</div>
+                    <div class="box_icon">
+                        <ion-icon name="play-outline"></ion-icon>
+                        10K
+                        <ion-icon name="heart-outline"></ion-icon>
+                        20
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar_right">
+                <div class="sidebar_header">
+                    <ion-icon name="heart-outline" class="sidebar_icon"></ion-icon>
+                    Bài hát đã yêu thích
+                    <a>Xem tất cả</a>
+                    <div class="solid"></div>
+                </div>
+                <div class="box_list">
+                    <div class="box">
+                        <div class="box-img"><img src="./assets/img/sidebar_img/img_4.jpg" alt=""></div>
+                        <div class="box_header">Overdose - Nhật Thắng</div>
+                        <div class="box_icon">
+                            <ion-icon name="play-outline"></ion-icon>
+                            10K
+                            <ion-icon name="heart-outline"></ion-icon>
+                            20
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img"><img src="./assets/img/sidebar_img/img_5.jpg" alt=""></div>
+                    <div class="box_header">Hesitations - Khuông Hiệp</div>
+                    <div class="box_icon">
+                        <ion-icon name="play-outline"></ion-icon>
+                        10K
+                        <ion-icon name="heart-outline"></ion-icon>
+                        20
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img"><img src="./assets/img/sidebar_img/img_6.jpg" alt=""></div>
+                    <div class="box_header">稲葉曇『ロストアンブレラ』 - Ngọc Sơn</div>
+                    <div class="box_icon">
+                        <ion-icon name="play-outline"></ion-icon>
+                        10K
+                        <ion-icon name="heart-outline"></ion-icon>
+                        20
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar_right">
+                <div class="sidebar_header">
+                    <ion-icon name="person-add-outline" class="sidebar_icon"></ion-icon>
+                    Gợi ý theo dõi
+                    <a>Xem tất cả</a>
+                    <div class="solid"></div>
+                </div>
+                <div class="box_list">
+                    <div class="box">
+                        <div class="box-img bdr"><img src="./assets/img/avatar/avatar_1.jpg" alt=""></div>
+                        <div class="box_header">Thu Huế</div>
+                        <div class="box_icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                            20K
+                            <ion-icon name="musical-notes-outline"></ion-icon>
+                            20
+                            <div class="box_follow">Theo dõi</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-img bdr"><img src="./assets/img/avatar/avatar_2.jpg" alt=""></div>
+                        <div class="box_header">Khuông Hiệp</div>
+                        <div class="box_icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                            20K
+                            <ion-icon name="musical-notes-outline"></ion-icon>
+                            20
+                            <div class="box_follow">Theo dõi</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-img bdr"><img src="./assets/img/avatar/avatar_3.jpg" alt=""></div>
+                        <div class="box_header">Mạnh</div>
+                        <div class="box_icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                            20K
+                            <ion-icon name="musical-notes-outline"></ion-icon>
+                            20
+                            <div class="box_follow">Theo dõi</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="music_player">
+        <div class="music_icon_control">
+            <ion-icon name="play-skip-back-circle-outline"></ion-icon>
+            <ion-icon name="play-circle-outline"></ion-icon>
+            <ion-icon name="play-skip-forward-circle-outline"></ion-icon>
+            <ion-icon name="shuffle-outline"></ion-icon>
+            <ion-icon name="repeat-outline"></ion-icon>
+        </div>
+        <div class="music_range">
+            <div class="duration">2.10</div>
+            <input type="range" name="range" id="range" class="range">
+            <div class="remaining">-3.10</div>
+        </div>
+        <div class="music_box">
+            <img src="./assets/img/sgImg/01.jpg" alt="" class="music_img">
+            <div class="music_name">Thu Huế - La Vie En Rose Cover</div>
+        </div>
+        <div class="music_social">
+            <ion-icon name="heart-sharp"></ion-icon>
+            <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+            <ion-icon name="add-outline"></ion-icon>
+        </div>
+        
+    </div>
+    <!-- slide js -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

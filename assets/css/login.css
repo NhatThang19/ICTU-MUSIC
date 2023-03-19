@@ -65,6 +65,8 @@ input:hover {
     border-radius: 20px;
     cursor: pointer;
     margin-bottom: 16px;
+    text-align: center;
+    line-height: 5rem;
 }
 
 .login__btn:hover,
