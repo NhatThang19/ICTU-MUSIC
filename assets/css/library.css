@@ -1,0 +1,365 @@
+body {
+    background-color: #D9D9D9;
+}
+
+.nav {
+    height: 50px;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.home-logo img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.directional {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 50px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+.directional_text {
+    color: white;
+    text-decoration: none;
+}
+
+.directional:hover {
+    background-color: gray;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search .search-input {
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.search .search-icon {
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    width: 12px;
+}
+
+.chat-icon,
+.upload-icon,
+.notifications-icon {
+    color: white;
+    font-size: 25px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+}
+
+.avatar-img {
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-weight: 600;
+}
+
+.content {
+    margin: 0 176px;
+    height: 800px;
+    margin-top: 50px;
+    background-color: #fff;
+    position: relative;
+}
+
+
+.music_player {
+    height: 35px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-top: 1px solid #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 154px;
+    align-items: center;
+}
+
+.music_icon_control,
+.music_social {
+    font-size: 25px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.music_range {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.range {
+    width: 400px;
+    height: 2px;
+    background: transparent;
+    -webkit-appearance: none;
+}
+
+.range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    background-color: #eeee;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 100rem;
+    box-shadow: 0 0 0 3px white, 0 0 0 6px rgba(100, 100, 111, 0.05);
+}
+
+.music_box {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.music_img {
+    width: 35px;
+    height: 35px;
+}
+
+.music_social {
+    width: 100px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.open {
+    display: block !important;
+}
+
+.modal_container {
+    position: absolute;
+    width: 300px;
+    background-color: whitesmoke;
+    right: 30px;
+    top: 50px;
+    color: black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.modal_header {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 15px 10px;
+}
+
+.modal_directional  h3{
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.modal_content p{
+    font-size: 1.4rem;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-weight: 500;
+}
+
+.time {
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    color: #F4B183;
+    font-weight: 300;
+}
+
+.modal_01 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.modal-profile {
+    position: absolute;
+    width: 300px;
+    background-color: whitesmoke;
+    right: 20px;
+    top: 50px;
+    color: black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+
+.modal-profile-header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.modal-avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.modal-more {
+    padding-left: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.option {
+    display: flex;
+    height: 30px;
+    font-size: 1.4rem;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.option:hover {
+    opacity: 1;
+}
+
+.option ion-icon{
+    width: 20px;
+    height: 20px;
+    padding-right:30px;
+}
+
+.content-wrapper {
+    padding: 50px 100px;
+
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #D9D9D9;
+}
+
+.content-header a{
+    text-decoration: none;
+    color: black;
+}
+
+.content-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.content-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 200px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: #D9D9D9 1px solid;
+}
+
+.song-img img {
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.content-song {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.song {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+    padding-bottom: 60px;
+}
+
+.song h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 180px;
+}
+
+.song p {
+    font-size: 1.2rem;
+}
+

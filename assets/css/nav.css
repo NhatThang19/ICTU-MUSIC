@@ -1,0 +1,87 @@
+.nav {
+    height: 50px;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.home-logo img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.directional {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 50px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+.directional_text {
+    color: white;
+    text-decoration: none;
+}
+
+.directional:hover {
+    background-color: gray;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search .search-input {
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.search .search-icon {
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    width: 12px;
+}
+
+.chat-icon,
+.upload-icon,
+.notifications-icon {
+    color: white;
+    font-size: 25px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+}
+
+.avatar-img {
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-weight: 600;
+}

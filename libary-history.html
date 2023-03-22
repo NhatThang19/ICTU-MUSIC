@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library-history</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/library.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+</head>
+
+<body>
+    <div class="nav">
+        <a href="./homePage.html" class="home-logo">
+            <img src="./assets/img/Logo/logo.png">
+        </a>
+        <div class="directional">
+            <a class="directional_text" href="./homePage.html">Trang chủ</a>
+        </div>
+        <div class="directional" >
+            <a class="directional_text" href="./feed.html">Bảng tin</a>
+        </div>
+        <div class="directional" style="background-color: grey;">
+            <a class="directional_text">Thư viện</a>
+        </div>
+        <div class="search">
+            <div class="search-field">
+                <input type="text" class="search-input" placeholder="Search">
+            </div>
+            <div class="search-icon">
+                <ion-icon name="search"></ion-icon>
+            </div>
+        </div>
+        <a href="" class="chat">
+            <div class="chat-icon">
+                <ion-icon name="chatbox"></ion-icon>
+            </div>
+        </a>
+        <a href="" class="upload">
+            <div class="upload-icon">
+                <ion-icon name="cloud-upload"></ion-icon>
+            </div>
+        </a>
+        <div class="notifications">
+            <div class="notifications-icon">
+                <ion-icon name="notifications"></ion-icon>
+            </div>
+        </div>
+        <div class="profile">
+            <img src="./assets/img/avatar/profile-avatar.gif" alt="" class="avatar-img">
+            <p class="profile-name">Vũ Minh Khoa</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-wrapper">
+            <div class="content-header">
+                <a href="./library.html">Yêu thích</a>
+                <a href="./library-playlists.html" >Playlists</a>
+                <a href="./libary-history.html">Theo dõi</a>
+                <a href="./library-follow.html" style="color: #0073BA;">Lịch sử</a>
+            </div>
+            <div class="content-nav">
+                <p class="content-explain">Nhìn lại và nghe các bản nhạc bạn đã nghe:</p>
+                <div class="content-icon">
+                    <p>Sắp xếp</p>
+                    <ion-icon name="apps-outline"></ion-icon>
+                    <ion-icon name="list-outline"></ion-icon>
+                    <input type="text" class="search-input" placeholder="Lọc">
+                </div>
+            </div>
+            <div class="content-song">
+                <div class="song">
+                    <div class="song-img"><img src="./assets/img/homePageSlide/goodDay/gd_3.gif" alt=""></div>
+                    <h4 class="song-title">Để mị nói cho mà nghe Piano</h4>
+                    <p>Văn Khởi</p>
+                </div>
+
+                <div class="song">
+                    <div class="song-img"><img src="./assets/img/homePageSlide/asian/asian_02.jpg" alt=""></div>
+                    <h4 class="song-title">Please Stand By Cover </h4>
+                    <p>Thu Huế</p>
+                </div>
+
+                <div class="song">
+                    <div class="song-img"><img src="./assets/img/post/post-song/03.gif" alt=""></div>
+                    <h4 class="song-title">Hò kéo pháo remix</h4>
+                    <p>Văn Khởi</p>
+                </div>
+
+                <div class="song">
+                    <div class="song-img"><img src="./assets/img/sgImg/02.jpg" alt=""></div>
+                    <h4 class="song-title">Bốc bát họ</h4>
+                    <p>Nhật Thắng</p>
+                </div>
+
+                <div class="song">
+                    <div class="song-img"><img src="./assets/img/avatar/avatar_2.jpg" alt=""></div>
+                    <h4 class="song-title">Đá vào lời ra</h4>
+                    <p>Sáng sẹo</p>
+                </div>
+
+                <div class="song">
+                    <div class="song-img"><img src="./assets/img/sidebar_img/img_5.jpg" alt=""></div>
+                    <h4 class="song-title">MU Vinh quang</h4>
+                    <p>Văn Khởi</p>
+                </div>
+
+                <div class="song">
+                    <div class="song-img"><img src="./assets/img/sidebar_img/img_2.jpg" alt=""></div>
+                    <h4 class="song-title">Cosmic Talon</h4>
+                    <p>Nhật Thắng</p>
+                </div>
+
+                <div class="song">
+                    <div class="song-img"><img src="./assets/img/avatar/avatar_1.jpg" alt=""></div>
+                    <h4 class="song-title">Dead feelings</h4>
+                    <p>Vũ Minh Khoa</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="music_player">
+        <div class="music_icon_control">
+            <ion-icon name="play-skip-back-circle-outline"></ion-icon>
+            <ion-icon name="play-circle-outline"></ion-icon>
+            <ion-icon name="play-skip-forward-circle-outline"></ion-icon>
+            <ion-icon name="shuffle-outline"></ion-icon>
+            <ion-icon name="repeat-outline"></ion-icon>
+        </div>
+        <div class="music_range">
+            <div class="duration">2.10</div>
+            <input type="range" name="range" id="range" class="range">
+            <div class="remaining">-3.10</div>
+        </div>
+        <div class="music_box">
+            <img src="./assets/img/sgImg/01.jpg" alt="" class="music_img">
+            <div class="music_name">Thu Huế - La Vie En Rose Cover</div>
+        </div>
+        <div class="music_social">
+            <ion-icon name="heart-sharp"></ion-icon>
+            <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+            <ion-icon name="add-outline"></ion-icon>
+        </div>
+
+    </div>
+    <div class="modal">
+        <div class="modal_container">
+            <div class="modal_header">Thông báo</div>
+            <div class="modal_directional">
+                <h3>Tất cả</h3>
+                <h3>Chưa đọc</h3>
+            </div>
+            <div class="modal_content">
+                <p><span class="name">Nhật Thắng</span> đã gửi theo dõi bạn.</p>
+                <span class="time">7p trước</span>
+                <p><span class="name">Thu Huế</span> đã đăng tải bài hát mới. </p>
+                <span class="time">1 tiếng trước</span>
+                <p><span class="name">Ngọc Sơn</span> đã yêu thích bài hát của bạn.</p>
+                <span class="time">20 giờ trước</span>
+                <p><span class="name">Khuông Hiệp</span> đã gửi tin nhắn cho bạn. </p>
+                <span class="time">1 tuần trước</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal_01">
+        <div class="modal-profile">
+            <div class="modal-profile-header">
+                <div class="modal-avatar"><img src="./assets/img/avatar/profile-avatar.gif" alt=""></div>
+                <p>Vũ Minh Khoa</p>
+            </div>
+            <div class="modal-more">
+                <div class="option">
+                    <ion-icon name="settings-outline"></ion-icon><p>Cài đặt</p>
+                </div>
+                <div class="option">
+                    <ion-icon name="information-outline"></ion-icon><p>Trợ Giúp</p>
+                </div>
+                <div class="option">
+                    <ion-icon name="chatbubbles-outline"></ion-icon><p>Đóng góp ý kiến</p>
+                </div>
+                <div class="option">
+                    <ion-icon name="log-out-outline"></ion-icon><p>Đăng xuất</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- slide js -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

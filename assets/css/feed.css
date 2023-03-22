@@ -1,0 +1,389 @@
+body {
+    background-color: #D9D9D9;
+}
+
+.content_container {
+    margin: 0 176px;
+    background-color: white;
+    height: 100%;
+    position: relative;
+}
+
+.content {
+    width: 850px;
+    margin-top: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.post {
+    padding-left: 30px;
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.post-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.post-avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.post-name {
+    font-size: 1.4rem;
+}
+
+.post-container {
+    height: 150px;
+    display: flex;
+}
+
+.post-img {
+    height: 150px;
+    width: 150px;
+    margin-right: 30px;
+}
+
+.post-information {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.post-icon-play ion-icon{
+    height: 50px;
+    width: 50px;
+    margin-right: 30px;
+    color: #0073BA;
+    cursor: pointer;
+}
+
+.post-name-song {
+    font-size: 1.6rem;
+    line-height: 20px;
+}
+
+.more {
+    font-size: 2rem;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+
+.post-name-song span {
+    color: #0073BA;
+}
+
+.post-comment {
+    margin-top: 15px;
+    width: 460px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.comment-img {
+    height: 30px;
+    width: 30px;
+}
+
+.comment-input {
+    width: 427px;
+    height: 30px;
+    padding: 10px;
+}
+
+.post-icon {
+    display: flex;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+.post-heart-icon {  
+    margin-right: 30px;
+}
+
+.view {
+    display: block;
+    color: black;
+    width: 120px;
+    height: 25px;
+    float: right;
+    border: #D9D9D9 1px solid;
+    text-align: center;
+    padding-top: 3px;
+    margin-left: 210px;
+}
+
+.sidebar {
+    position: absolute;
+    width: 300px;
+    top: 30px;
+    right: 0;
+}
+
+.sidebar_header {
+    font-size: 1.2rem;
+}
+
+.sidebar_header a {
+    cursor: pointer;
+}
+
+.sidebar_icon {
+    font-size: 1.4rem;
+}
+
+.sidebar_header a {
+    float: right;
+    padding-right: 20px;
+}
+
+.solid {
+    border: solid 1px #D9D9D9;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.box {
+    height: 50px;
+    width: 250px;
+    position: relative;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.box-img {
+    height: 50px;
+    width: 50px;
+}
+
+.box_header {
+    position: absolute;
+    display: block;
+    left: 60px;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+}
+
+.box_icon {
+    width: 180px;
+    position: absolute;
+    display: block;
+    left: 60px;
+    top: 20px;
+    font-size: 1.4rem;
+}
+
+.bdr img {
+    border-radius: 50%;
+}
+
+.box_follow {
+    float: right;
+    font-size: 1.2rem;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+    border: solid #D9D9D9 1px;
+    cursor: pointer;
+}
+
+.music_player {
+    height: 35px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-top: 1px solid #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 154px;
+    align-items: center;
+}
+
+.music_icon_control,
+.music_social {
+    font-size: 25px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.music_range {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.range {
+    width: 400px;
+    height: 2px;
+    background: transparent;
+    -webkit-appearance: none;
+}
+
+.range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    background-color: #eeee;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 100rem;
+    box-shadow: 0 0 0 3px white, 0 0 0 6px rgba(100, 100, 111, 0.05);
+}
+
+.music_box {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.music_img {
+    width: 35px;
+    height: 35px;
+}
+
+.music_social {
+    width: 100px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.open {
+    display: block !important;
+}
+
+.modal_container {
+    position: absolute;
+    width: 300px;
+    background-color: whitesmoke;
+    right: 30px;
+    top: 50px;
+    color: black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.modal_header {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 15px 10px;
+}
+
+.modal_directional  h3{
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.modal_content p{
+    font-size: 1.4rem;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-weight: 500;
+}
+
+.time {
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    color: #F4B183;
+    font-weight: 300;
+}
+
+.modal_01 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.modal-profile {
+    position: absolute;
+    width: 300px;
+    background-color: whitesmoke;
+    right: 20px;
+    top: 50px;
+    color: black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+
+.modal-profile-header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.modal-avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.modal-more {
+    padding-left: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.option {
+    display: flex;
+    height: 30px;
+    font-size: 1.4rem;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.option:hover {
+    opacity: 1;
+}
+
+.option ion-icon{
+    width: 20px;
+    height: 20px;
+    padding-right:30px;
+}
+
+
